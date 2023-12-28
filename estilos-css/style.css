@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 05px;
+    padding: 16px;
+}
+header{
+    display: flex; /*elementos um ao lado do outro*/
+    align-items: center; /*alinhamento dos elementos dentro da linha*/
+    margin-bottom: 40px;
+    
+    
+}
+header img{
+    height: 36px;
+    margin-right: 16px;
+    
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+form{
+    margin-bottom: 20px;
+    display: flex;
+    max-width: 604px; /*largua maxima do formulário*/
+    width: 100%; /*ocupar 100% da largura maxima*/
+    justify-content: space-between; /*para dividir o espaçamento entre os itens*/
+}
+form input{
+    margin-right: 03px;
+    font-size: 24px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 05px;
+    padding: 03px;
+    
+}
+form button{
+    margin-left: 08px;
+    background-color: #009432 ;
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 03px;
+    border-radius: 05px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #054c1d;
+}
+table{
+    width: 100%;
+}
+table td{
+    text-align: center;
+    font-size: 20px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0,0,0, 0.3);
+}
+table tbody img{
+    margin-top: 05px;
+    align-items: center;
+}
+table th{
+    border-bottom: 02px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+table td img {
+    height: 30px;
+}
+.resultado{
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 3px;
+}
+.aprovado{
+    background-color: #009432;
+}
+.reprovado{
+    background-color: red;
+}
+
+
+
+
+
